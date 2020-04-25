@@ -1,0 +1,9 @@
+
+Music_Player/.vs/Musical_Player/v15/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+Music_Player/Music_Player.sln
+Music_Player/Music_Player/Musical_Player.csproj
+*.cache
