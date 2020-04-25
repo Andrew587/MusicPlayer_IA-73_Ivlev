@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Musical_Player.Properties
+namespace Music_Player.Properties
 {
 
 

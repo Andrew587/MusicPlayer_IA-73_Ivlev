@@ -7,3 +7,13 @@ Music_Player/.vs/Musical_Player/v15/.suo
 Music_Player/Music_Player.sln
 Music_Player/Music_Player/Musical_Player.csproj
 *.cache
+Music_Player/Music_Player/obj/Debug/App.g.i.cs
+Music_Player/Music_Player/obj/Debug/MainWindow.g.i.cs
+Music_Player/Music_Player/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Music_Player/Music_Player/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Music_Player/Music_Player/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+Music_Player/Music_Player/obj/Debug/Views/MainWindow.g.i.cs
+Music_Player/Music_Player/bin
+Music_Player/Music_Player/obj
+Music_Player/Music_Player/Music_Player.csproj
+Music_Player/.vs/Music_Player/v15/.suo

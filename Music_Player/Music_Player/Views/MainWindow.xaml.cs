@@ -1,4 +1,4 @@
-﻿using Musical_Player.ViewModels;
+﻿using Music_Player.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Musical_Player
+namespace Music_Player
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml

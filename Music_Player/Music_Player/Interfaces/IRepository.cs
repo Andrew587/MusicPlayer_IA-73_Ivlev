@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Musical_Player.Interfaces
+namespace Music_Player.Interfaces
 {
     public interface IRepository<Tkey, TEntity>
     {

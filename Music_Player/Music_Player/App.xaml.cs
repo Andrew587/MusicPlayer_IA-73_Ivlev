@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Musical_Player
+namespace Music_Player
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

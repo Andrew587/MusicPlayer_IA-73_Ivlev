@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Music_Player
+namespace Musical_Player.Models.Entities
 {
-    interface IEnumerable
+    class Player
     {
-        IEnumerator CreateNumerator();
     }
 }

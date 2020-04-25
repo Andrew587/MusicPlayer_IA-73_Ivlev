@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Musical_Player.Models.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Musical_Player
+namespace Music_Player
 {
     class Holder
     {

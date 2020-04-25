@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Musical_Player.ViewModels
+namespace Music_Player.ViewModels
 {
     class MainWindowVM : ViewModel
     {
