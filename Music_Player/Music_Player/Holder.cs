@@ -26,5 +26,14 @@ namespace Music_Player
         internal static List<User> Users { get => users; set => users = value; }
         internal static List<Player> Players { get => players; set => players = value; }
         internal static List<UsersPlayer> UsersPlayers { get => usersPlayers; set => usersPlayers = value; }
+
+        private static void InitUsers()
+        {
+            User user = new User { Id = 0, Login = "1", Password = "1" };
+            User user2 = new User { Id = 1, Login = "2", Password = "2" };
+            Users.Add(user);
+            Users.Add(user2);
+        }
+
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Musical_Player.Models.Entities
+namespace Music_Player.Models.Entities
 {
-    class Player
+    class Playlist
     {
+
     }
 }

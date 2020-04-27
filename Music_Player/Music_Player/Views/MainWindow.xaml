@@ -1,32 +1,33 @@
-﻿<Window
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	x:Class="Musical_Player.MainWindow"
-	x:Name="Window"
-	Title="MainWindow"
-	Width="640" Height="480">
-    <Grid x:Name="LayoutRoot">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="211*"/>
-            <ColumnDefinition Width="423*"/>
-        </Grid.ColumnDefinitions>
-        <Image HorizontalAlignment="Left" Opacity="0.8" Height="310" Margin="9.115,59,0,0" VerticalAlignment="Top" Width="321" Grid.Column="1"/>
-        <Button x:Name="Log_in" Margin="29.8,0,223.6,27.4" VerticalAlignment="Bottom" Height="54" Content="Войти" BorderThickness="1,1,1,1" IsDefault="True" FontFamily="Times New Roman" FontSize="18.667" FontWeight="Bold" BorderBrush="Black" Command="{Binding LoginCommand}" Grid.Column="1">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#FFE8F509"/>
-                    <GradientStop x:Name="GradienStop1" Color="#FFEBEBEB" Offset="0.002"/>
-                    <GradientStop x:Name="GradienStop2" Color="#FFFBB909" Offset="0.476"/>
-                    <GradientStop x:Name="GradienStop3" Color="#FFECF909" Offset="0.934"/>
-                    <GradientStop x:Name="GradienStop4" Color="#FFF2FE10" Offset="0.043"/>
-                </LinearGradientBrush>
-            </Button.Background>
+﻿<Window x:Class="Musical_Player.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="640" Height="480">
+    <Grid>
+        <Grid x:Name="LayoutRoot">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="211*"/>
+                <ColumnDefinition Width="423*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Log_in" Margin="0,0,220.6,35" VerticalAlignment="Bottom" Height="54" Content="Войти" BorderThickness="1,1,1,1" IsDefault="True" FontFamily="Times New Roman" FontSize="18.667" FontWeight="Bold" BorderBrush="Black" Command="{Binding LoginCommand}" Grid.Column="1">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFE8F509"/>
+                        <GradientStop x:Name="GradienStop1" Color="#FFEBEBEB" Offset="0.002"/>
+                        <GradientStop x:Name="GradienStop2" Color="#FFFBB909" Offset="0.476"/>
+                        <GradientStop x:Name="GradienStop3" Color="#FFECF909" Offset="0.934"/>
+                        <GradientStop x:Name="GradienStop4" Color="#FFF2FE10" Offset="0.043"/>
+                    </LinearGradientBrush>
+                </Button.Background>
 
-        </Button>
-        <TextBlock Margin="146,10,118.6,0" VerticalAlignment="Top" Height="73" FontFamily="Times New Roman" FontSize="24" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"><Run Text="Для начала раб"/><Run Text="о"/><Run Text="т"/><Run Text="ы, пожалуйста, авторизируйтесь"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="43,140,0,0" VerticalAlignment="Top" Width="83" Height="40" FontFamily="Times New Roman" FontSize="26.667" FontStyle="Italic" Text="Login:" TextWrapping="Wrap"/>
-        <TextBlock HorizontalAlignment="Left" Margin="8,0,0,157.4" Width="118" Text="Password:" TextWrapping="Wrap" FontFamily="Times New Roman" FontSize="26.667" FontStyle="Italic" VerticalAlignment="Bottom" Height="40"/>
-        <TextBox x:Name="Login" Margin="161,140,-306.8,0" VerticalAlignment="Top" Height="40" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" BorderBrush="Black" FontSize="14.667" TextAlignment="Center"/>
-        <TextBox x:Name="Password"  Margin="161,253,-306.8,0" VerticalAlignment="Top" Height="40" Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" TextWrapping="Wrap" BorderBrush="Black" FontSize="14.667" TextAlignment="Center"/>
+            </Button>
+            <TextBlock Margin="146,10,118.6,0" VerticalAlignment="Top" Height="73" FontFamily="Times New Roman" FontSize="24" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"><Run Text="Для начала раб"/><Run Text="о"/><Run Text="т"/><Run Text="ы, пожалуйста, авторизируйтесь"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="43,140,0,0" VerticalAlignment="Top" Width="83" Height="40" FontFamily="Times New Roman" FontSize="26.667" FontStyle="Italic" Text="Login:" TextWrapping="Wrap"/>
+            <TextBlock HorizontalAlignment="Left" Margin="8,0,0,157.4" Width="118" Text="Password:" TextWrapping="Wrap" FontFamily="Times New Roman" FontSize="26.667" FontStyle="Italic" VerticalAlignment="Bottom" Height="40"/>
+            <TextBox x:Name="Login" Margin="161,140,-306.8,0" VerticalAlignment="Top" Height="40" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" BorderBrush="Black" FontSize="14.667" TextAlignment="Center"/>
+            <TextBox x:Name="Password"  Margin="161,253,-306.8,0" VerticalAlignment="Top" Height="40" Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" TextWrapping="Wrap" BorderBrush="Black" FontSize="14.667" TextAlignment="Center"/>
+        </Grid>
     </Grid>
 </Window>
